@@ -1,3 +1,3 @@
 accessing
 amberPath
-	 ^ FileDirectory default fullPathFor: 'amber' 
+	 ^ amberPath ifNil: [FileDirectory default fullPathFor: 'amber']

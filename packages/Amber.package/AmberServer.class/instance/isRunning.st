@@ -1,3 +1,3 @@
 testing
 isRunning
-	^ ZnServer default isRunning
+	^ self server isRunning

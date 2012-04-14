@@ -1,4 +1,5 @@
 start / stop
 stop
-	ZnServer default stop.
-	ZnServer shutDown.
+	self server
+		stop;
+		delegate: nil.

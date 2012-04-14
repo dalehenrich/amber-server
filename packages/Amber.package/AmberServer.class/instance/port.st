@@ -1,3 +1,3 @@
 accessing
 port
-	^ ZnServer default port
+	^ self server port

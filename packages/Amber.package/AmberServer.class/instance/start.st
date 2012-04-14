@@ -1,9 +1,11 @@
 start / stop
 start
-	self ifRunning: [self stop].
+	self stop.
 	
-	ZnServer startDefaultOn: self defaultPort.
-	ZnServer default delegate: ((ZnAmberFileServerDelegate new) 
+	self server 
+		port: (port ifNil: [self defaultPort]);
+		delegate: ((ZnAmberFileServerDelegate new) 
 										prefixFromString: '/'; 
 										directory: (FileDirectory on: self amberPath); 
-									yourself).
+									yourself);
+		start

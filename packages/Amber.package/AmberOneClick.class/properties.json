@@ -5,12 +5,10 @@
 	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
-	"commentStamp" : "LaurentLaffont 2/11/2012 09:25",
+	"commentStamp" : "LaurentLaffont 3/11/2012 13:54",
 	"instvars" : [
-		"port",
-		"amberPath",
-		"server" ],
-	"name" : "AmberServer",
+		 ],
+	"name" : "AmberOneClick",
 	"pools" : [
 		 ],
 	"super" : "Object",
