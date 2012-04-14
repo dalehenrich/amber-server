@@ -1,0 +1,16 @@
+{
+	"category" : "Amber",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "LaurentLaffont 2/11/2012 09:25",
+	"instvars" : [
+		 ],
+	"name" : "AmberServer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }
