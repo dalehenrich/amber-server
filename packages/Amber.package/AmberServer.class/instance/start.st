@@ -4,7 +4,7 @@ start
 	
 	self server 
 		port: (port ifNil: [self defaultPort]);
-		delegate: ((ZnAmberFileServerDelegate new) 
+		delegate: ((self class serverDelegate new) 
 										prefixFromString: '/'; 
 										directory: (FileDirectory on: self amberPath); 
 									yourself);
