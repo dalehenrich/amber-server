@@ -1,3 +1,3 @@
 accessing
 amberServer
-	^ amberServer ifNil: [amberServer := AmberServer new]
+	^ amberServer ifNil: [amberServer := AmberServer singleton]

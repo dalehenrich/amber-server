@@ -1,8 +1,10 @@
 image
 prepareImage
+	"self prepareImage"
+	
 	World submorphs do: [:aMorph| aMorph delete].
 	PolymorphSystemSettings desktopColor: Color white.
-	World backgroundImage: (ImageReadWriter formFromFileNamed: 'amber/images/amber.png') layout:  #topCenter.
+	World backgroundImage: (ImageReadWriter formFromFileNamed: self pngPath) layout:  #topCenter.
 	TaskbarMorph showTaskbar: false.
 	
 	self unregisterAllZnServer.

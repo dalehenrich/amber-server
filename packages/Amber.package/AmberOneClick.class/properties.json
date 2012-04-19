@@ -1,7 +1,7 @@
 {
 	"category" : "Amber",
 	"classinstvars" : [
-		 ],
+		"pngPath" ],
 	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
