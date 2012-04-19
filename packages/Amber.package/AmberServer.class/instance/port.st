@@ -1,3 +1,4 @@
 accessing
 port
-	^ self server port
+	port ifNil: [ port := self defaultPort ].
+	^ port

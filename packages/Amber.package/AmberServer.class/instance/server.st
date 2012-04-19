@@ -1,3 +1,3 @@
 accessing
 server
-	^ server ifNil: [server := (ZnMultiThreadedServer on: self defaultPort) stop]
+	^ server ifNil: [server := (ZnMultiThreadedServer on: self port) stop]

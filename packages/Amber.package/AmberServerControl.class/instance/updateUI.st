@@ -2,4 +2,5 @@ update
 updateUI
 	self 
 		changed: #getServerStatus;
-		changed: #amberRootDir
+		changed: #amberRootDir;
+		changed: #port
