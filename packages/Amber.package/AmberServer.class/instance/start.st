@@ -6,6 +6,6 @@ start
 		port: (port ifNil: [self defaultPort]);
 		delegate: ((self class serverDelegate new) 
 										prefixFromString: '/'; 
-										directory: (FileDirectory on: self amberPath); 
+										directory: (FileDirectory default directoryNamed: self amberPath); 
 									yourself);
 		start
